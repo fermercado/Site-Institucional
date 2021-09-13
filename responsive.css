@@ -1,0 +1,539 @@
+@media (max-width:768px){
+
+    html{
+        font-size:50%;
+    }
+
+
+    .titulo{
+        width: 95%;
+        max-width: 1500px;
+        margin: auto;
+        text-align: center;
+        padding: 33px;
+        
+    }
+
+    .tela1 .logobaixo_img{
+        width: 250px;
+    
+    }
+    .tela1 .logobaixo{
+        display: flex;
+        position: relative;
+        left: 215px;
+        bottom:50px;
+    
+      
+    }
+
+    
+    .basecoluna1{
+        grid-template-columns: repeat(1, minmax(200px ,1fr));
+        grid-template-rows:  20vh 20vh 20vh 20vh 20vh 20vh 20vh 20vh 20vh 20vh;
+        grid-gap: 80px 40px;
+    
+
+    }
+
+
+    .tela4{
+        grid-template-columns: 1fr;
+        
+    
+
+    }
+    
+    .tela4coluna__{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 300px;
+        align-items: flex-start;
+        
+
+
+
+    }   
+    .tela4_coluna1{
+        
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 50px 0;
+        border-bottom: 4px solid rgba(117, 117, 117, 0.37);;
+        
+    }
+
+    .imgcoluna1 img{
+    
+        width: 120px;
+        padding: 30px;
+        
+
+    }
+
+    .titulocoluna1{
+        text-align: left;
+        margin: 0;
+    
+    }
+
+    .descricaocoluna1{
+        height: 200px;
+        width: 400px;
+        text-align: left;
+
+    }
+
+
+    .tela4coluna__2{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 300px;
+        align-items: flex-start;
+        
+
+
+
+    }   
+    .tela4_coluna2{
+ 
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 50px 0;
+        border-bottom: 4px solid rgba(117, 117, 117, 0.37);;
+    
+    }
+
+    .borderimg2{
+        padding: 32px 37px;
+    }
+    .imgcoluna2 img{
+    
+        width: 50px;
+        
+
+    }
+
+    .titulocoluna2{
+        text-align: left;
+        margin: 0;
+    
+    }
+
+    .descricaocoluna2{
+        height: 200px;
+        width: 400px;
+        text-align: left;
+
+    }
+
+
+
+    .tela4coluna__3{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 300px;
+        align-items: flex-start;
+        
+
+
+
+    }   
+    .tela4_coluna3{
+        
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 50px 0;
+        border-bottom: 4px solid rgba(117, 117, 117, 0.37);;
+
+    }
+    .borderimg3{
+        padding: 38px 36px;
+    }
+
+    .imgcoluna3 img{
+        width: 50px;
+
+
+        
+
+    }
+
+    .titulocoluna3{
+        text-align: left;
+        margin: 0;
+    
+    }
+
+    .descricaocoluna3{
+        height: 200px;
+        width: 400px;
+        text-align: left;
+
+    }
+
+
+
+
+    
+
+
+    .tela5{
+        
+        grid-template-columns:1fr;
+        height: 1200px;
+        padding-bottom: 80px;
+    
+        
+    }
+
+    .tela5coluna1{
+        padding: 25px;
+        line-height: 3.5rem;
+        border-top: 6px solid rgba(117, 117, 117, 0.37);
+        border-right: 6px solid rgba(117, 117, 117, 0.37);
+        border-left: 6px solid rgba(117, 117, 117, 0.37);
+        border-bottom: none;
+        
+    }
+    .tela5coluna2{
+        padding: 25px;
+        line-height: 3.5rem;
+        border-top: 6px solid rgba(117, 117, 117, 0.37);
+        border-right: 6px solid rgba(117, 117, 117, 0.37);
+        border-left: 6px solid rgba(117, 117, 117, 0.37);
+        border-bottom: none;
+        
+    }
+    .tela5coluna3{
+        padding: 25px;
+        line-height: 3.5rem;
+        border-top: 6px solid rgba(117, 117, 117, 0.37);
+        border-right: 6px solid rgba(117, 117, 117, 0.37);
+        border-left: 6px solid rgba(117, 117, 117, 0.37);
+        border-bottom: none;
+    }
+
+    .tela5coluna4{
+        padding: 25px;
+        line-height: 3.5rem;
+        border-top: 6px solid rgba(117, 117, 117, 0.37);
+        border-right: 6px solid rgba(117, 117, 117, 0.37);
+        border-left: 6px solid rgba(117, 117, 117, 0.37);
+    } 
+
+    .titulotela5coluna1{
+        font-size: 3.0rem;
+    }
+
+    .descricaotela5coluna1{
+        font-size: 2.6rem;
+    
+
+    }
+
+    .tela6{
+        height: 450px;
+        padding: 50px;
+    }
+
+    .textotela6{
+        font-size: 5.0rem;
+    }
+
+    .textocoluna{
+        font-size: 2.6rem;
+    }
+
+    .alturacolunas{
+        height: 230px;
+    }
+
+  
+    .form{
+    
+        padding: 45px 35px;
+        
+    
+    
+    
+    }
+    
+    .form1{
+    
+        width: 380px ;
+      
+        
+        
+      
+    }
+
+    .buttonlogin{
+   
+        width: 380px ;
+        
+    
+    }
+
+    .imgfooter{
+        width: 180px;
+       
+    }
+
+}
+
+
+@media (max-width:1024px){
+
+    html{
+        font-size:60%;
+    }
+ 
+
+    .imgsize{
+        width: 80px;
+    }
+
+   
+
+
+
+
+
+
+
+
+}
+    
+    
+
+@media (max-width:1100px){
+
+    html{
+        font-size:50%;
+    }
+
+    .navbar{
+        display: flex;
+        min-width: 400px;
+        justify-content: space-around;
+        
+           
+    }
+
+
+    .tela1 .logobaixo{
+      
+        right: 100px;
+        bottom:50px;
+    
+      
+    }
+
+
+
+}
+
+@media(max-width:1020px){
+    .menu ul li{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    label[for="bt_menu"]{
+    display:block;
+    }
+
+    #bt_menu:checked ~ .menu{
+        margin-left: 0;
+
+    }
+
+    .menu a{
+        display: block;
+        
+        
+    }
+
+
+    .menu a{
+        font-size: 20px;
+        width: 300px;
+        height: 70px;
+        margin-bottom: 10px;
+        line-height: 50px;
+        align-items: center;
+        display: block;
+        position: relative;
+        top: 30px;
+        left: -25px;
+    }    
+
+    .navbar{
+        display: none;
+    }
+
+    .logo{
+        display:none;
+    }
+    
+    .header_container{
+        display:none;
+    }
+
+    .headercontainer{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .headerbutton{
+        display: block;
+    }
+
+    .menu{
+        display: block;
+       
+    }
+
+    
+  
+    
+
+}
+
+@media(max-width:425px){
+
+    html{
+        font-size:35%;
+    }
+
+    .tela1 .logobaixo{
+      
+        left: 80px;
+        bottom:50px;
+    
+      
+    }
+
+    .imgfooter{
+        width: 180px;
+       
+    }
+
+    .form1{
+    
+        width: 300px ;
+      
+        
+        
+      
+    }
+
+    .buttonlogin{
+   
+        width: 300px ;
+        
+    
+    }
+
+    .imgfooter{
+        width: 150px;
+       
+    }
+
+    .menu a{
+        width: 150px;
+        height: 50px;
+        margin-bottom: 10px;
+        line-height: 25px;
+       
+    }  
+    
+    .descricaocoluna1{
+        height: 200px;
+        width: 200px;
+        line-height: 20px;
+        text-align: left;
+
+    }
+
+
+    .imgcoluna1 img{
+    
+      position: relative;
+        right: 55px;
+
+    }
+
+
+    .descricaocoluna2{
+        height: 200px;
+        width: 200px;
+        line-height: 20px;
+        text-align: left;
+
+    }
+
+    .borderimg2{
+        position: relative;
+        right: 55px;
+
+
+
+    }
+
+    .descricaocoluna3{
+        height: 200px;
+        width: 200px;
+        line-height: 20px;
+        text-align: left;
+
+    }
+
+    .borderimg3{
+        position: relative;
+        right: 55px;
+
+
+
+    }
+
+    .form1{
+    
+        font-size: 15px;
+      
+        
+        
+      
+    
+    }
+    .tela1 h1{
+        
+        font-size: 9.0rem;
+    
+   
+      
+    }
+
+    
+
+   
+
+    
+    
+  
+
+
+
+}
+
+
