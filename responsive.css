@@ -107,6 +107,7 @@
         border-top: 3px solid;
         width: 30px;
         transition: .4s;
+        z-index: 9999;
        
     }
 
@@ -123,25 +124,54 @@
        
     }
     #menu {
-        display: block;
-        align-items: center;
-        position: absolute;
-        width:180px;
-        top: 69px;
+        position:absolute;
+        width: 230px;
+        max-width: 250px;
+        top:69px ;
         left: 0;
-        background-color:#2570b7a9;
+        background-color: #2570b7d8;
+        display: block;
+        border-bottom-right-radius: 25px;
+        text-align: center;
+        z-index: 999;
+        line-height: 70px;
         height: 0;
-        transition:.4s;
-        z-index: 9999;
+        transition: .5s;
         visibility: hidden;
         overflow-y: hidden;
-        border-bottom-right-radius: 10%;
+    }
+
+    .options-mobile-home {
+        text-decoration: none;
+        color: #fff;
+        font-size: 2.4rem;
+        cursor: pointer;
+        display: block;
+        padding: 5px;
+
+
+    }
+
+
+    .options-mobile-home:hover {
+        background-color: rgba(255, 255, 255, 0.151);
+        color: #fff;
+        border-bottom-right-radius: 25px;
+        transition: .4s;
     }
 
     .options-mobile:hover {
-        background-color: rgba(255, 255, 255, 0.096);
+        background-color: rgba(255, 255, 255, 0.151);
         color: #fff;
+        border-bottom-right-radius: 25px;
         transition: .4s;
+    }
+
+    hr {
+        display: block;
+        margin: auto;
+        width: 90%;
+        border-color: rgba(255, 255, 255, 0.342);
     }
 
     .header-menu img {
@@ -153,18 +183,16 @@
     }
 
     .options-mobile {
-       padding: 2rem 0;
-       margin: 0 1rem;
-       border-bottom: 2px solid rgba(0, 0, 0, 0.123);
-       border-bottom-right-radius: 15%;
-       text-align: center;
+        display: block;
+        margin-left: 0;
+        font-weight: 400;
        
     }
 
     #nav.active #menu {
-        height: calc(240px - 70px);
+        height: 325px;
+        max-height:325px;
         visibility: visible;
-        overflow-y: auto;
         
     }
 
@@ -432,7 +460,7 @@
 @media (min-width:1140px) {
 
     html{
-        font-size: 60%;
+        font-size: 56%;
     }
      .about-container-columns {
         height: 250px;

@@ -42,6 +42,11 @@ html{
  
    
 }
+
+.options-mobile-home{
+    display: none;
+}
+
 .options-mobile {
     text-decoration: none;
     color: #fff;
@@ -55,6 +60,10 @@ html{
 .options-mobile:hover {
     color: #002050;
     transition: .5s;
+}
+
+hr {
+    display: none;
 }
 
 
@@ -120,12 +129,11 @@ h1{
     justify-content: center;
     align-items: center;
     margin-top: 105px;
-    background-color: #00a4ef;
-    width: 290px;
+    width: 270px;
     max-width: 325px;
     height: 80px;  
     border: none;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     cursor: pointer;
     text-decoration: none;
 }
@@ -133,6 +141,7 @@ h1{
 .home-button a {
     padding: 18px 48px;
     color: white;
+    background-color: #00a4ef;
     text-decoration: none;
 }
     
