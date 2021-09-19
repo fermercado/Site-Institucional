@@ -1,539 +1,472 @@
-@media (max-width:768px){
+@media (max-width:425px) {
 
     html{
-        font-size:50%;
+        font-size: 38%;
+    }
+    h1{
+        font-size: 5rem;
     }
 
-
-    .titulo{
-        width: 95%;
-        max-width: 1500px;
-        margin: auto;
-        text-align: center;
-        padding: 33px;
-        
+    .home-description {
+        font-size: 3.6rem;
     }
 
-    .tela1 .logobaixo_img{
-        width: 250px;
-    
-    }
-    .tela1 .logobaixo{
-        display: flex;
-        position: relative;
-        left: 215px;
-        bottom:50px;
-    
-      
-    }
-
-    
-    .basecoluna1{
-        grid-template-columns: repeat(1, minmax(200px ,1fr));
-        grid-template-rows:  20vh 20vh 20vh 20vh 20vh 20vh 20vh 20vh 20vh 20vh;
-        grid-gap: 80px 40px;
-    
-
-    }
-
-
-    .tela4{
-        grid-template-columns: 1fr;
-        
-    
-
-    }
-    
-    .tela4coluna__{
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        width: 300px;
-        align-items: flex-start;
-        
-
-
-
-    }   
-    .tela4_coluna1{
-        
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row-reverse;
-        padding: 50px 0;
-        border-bottom: 4px solid rgba(117, 117, 117, 0.37);;
-        
-    }
-
-    .imgcoluna1 img{
-    
-        width: 120px;
-        padding: 30px;
-        
-
-    }
-
-    .titulocoluna1{
-        text-align: left;
-        margin: 0;
-    
-    }
-
-    .descricaocoluna1{
-        height: 200px;
-        width: 400px;
-        text-align: left;
-
-    }
-
-
-    .tela4coluna__2{
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        width: 300px;
-        align-items: flex-start;
-        
-
-
-
-    }   
-    .tela4_coluna2{
  
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row-reverse;
-        padding: 50px 0;
-        border-bottom: 4px solid rgba(117, 117, 117, 0.37);;
-    
-    }
-
-    .borderimg2{
-        padding: 32px 37px;
-    }
-    .imgcoluna2 img{
-    
-        width: 50px;
-        
-
-    }
-
-    .titulocoluna2{
-        text-align: left;
-        margin: 0;
-    
-    }
-
-    .descricaocoluna2{
-        height: 200px;
-        width: 400px;
-        text-align: left;
-
-    }
-
-
-
-    .tela4coluna__3{
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        width: 300px;
-        align-items: flex-start;
-        
-
-
-
-    }   
-    .tela4_coluna3{
-        
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row-reverse;
-        padding: 50px 0;
-        border-bottom: 4px solid rgba(117, 117, 117, 0.37);;
-
-    }
-    .borderimg3{
-        padding: 38px 36px;
-    }
-
-    .imgcoluna3 img{
-        width: 50px;
-
-
-        
-
-    }
-
-    .titulocoluna3{
-        text-align: left;
-        margin: 0;
-    
-    }
-
-    .descricaocoluna3{
-        height: 200px;
-        width: 400px;
-        text-align: left;
-
-    }
-
-
-
-
-    
-
-
-    .tela5{
-        
-        grid-template-columns:1fr;
-        height: 1200px;
-        padding-bottom: 80px;
-    
+    .home-button{
+        font-size: 4rem;
         
     }
-
-    .tela5coluna1{
-        padding: 25px;
-        line-height: 3.5rem;
-        border-top: 6px solid rgba(117, 117, 117, 0.37);
-        border-right: 6px solid rgba(117, 117, 117, 0.37);
-        border-left: 6px solid rgba(117, 117, 117, 0.37);
-        border-bottom: none;
-        
-    }
-    .tela5coluna2{
-        padding: 25px;
-        line-height: 3.5rem;
-        border-top: 6px solid rgba(117, 117, 117, 0.37);
-        border-right: 6px solid rgba(117, 117, 117, 0.37);
-        border-left: 6px solid rgba(117, 117, 117, 0.37);
-        border-bottom: none;
-        
-    }
-    .tela5coluna3{
-        padding: 25px;
-        line-height: 3.5rem;
-        border-top: 6px solid rgba(117, 117, 117, 0.37);
-        border-right: 6px solid rgba(117, 117, 117, 0.37);
-        border-left: 6px solid rgba(117, 117, 117, 0.37);
-        border-bottom: none;
+    .target-column-1{
+        padding: 10px;
     }
 
-    .tela5coluna4{
-        padding: 25px;
-        line-height: 3.5rem;
-        border-top: 6px solid rgba(117, 117, 117, 0.37);
-        border-right: 6px solid rgba(117, 117, 117, 0.37);
-        border-left: 6px solid rgba(117, 117, 117, 0.37);
-    } 
 
-    .titulotela5coluna1{
-        font-size: 3.0rem;
-    }
-
-    .descricaotela5coluna1{
-        font-size: 2.6rem;
-    
-
-    }
-
-    .tela6{
-        height: 450px;
-        padding: 50px;
-    }
-
-    .textotela6{
-        font-size: 5.0rem;
-    }
-
-    .textocoluna{
-        font-size: 2.6rem;
-    }
-
-    .alturacolunas{
-        height: 230px;
-    }
-
-  
-    .form{
-    
-        padding: 45px 35px;
-        
-    
-    
-    
-    }
-    
-    .form1{
-    
-        width: 380px ;
-      
-        
-        
-      
-    }
-
-    .buttonlogin{
-   
-        width: 380px ;
-        
-    
-    }
-
-    .imgfooter{
-        width: 180px;
+    .about-tittle-descriptions {
+        font-size: 2.4rem;
        
     }
+    
+    .about-descriptions {
+        font-size: 2.4rem;
+        
+    
+    }
+    .img-container {
+        height: 180px;
+      
+    }
 
+    .img-description {
+        font-size: 2.8rem;
+    }
+
+    .registration-description {
+        font-size: 2.8rem;
+        
+    }
 }
 
 
-@media (max-width:1024px){
+    @media (min-width:425px) {
 
-    html{
-        font-size:60%;
+        .target-column-1{
+            padding: 0 30px;
+        }
+
+        .target-tittle-descripiton {
+            font-size: 2.4rem;
+        }
+
+       .target-content {
+           padding-left: 20px;
+           font-size: 2.2rem;
+       }
+
+       h1{
+        font-size: 8rem;
     }
- 
 
-    .imgsize{
+
+    }
+
+
+    
+     
+
+
+
+@media (max-width:800px) {
+    
+    html{
+        font-size: 45%;
+    }
+
+   
+
+    #header-container .header-menu {
+        height: 70px;
+    
+    }
+    #header-container .header-menu #nav #btn-mobile{
+        display: flex;
+        padding: 10px 7px;
+        border: none;
+        background: none;
+        cursor: pointer;
+
+    }
+    #header-container .header-menu #nav #btn-mobile:hover{
+        background-color:rgba(255, 255, 255, 0.144);
+        transition: .3s;
+
+    }
+
+    #hamburguer-button {
+        color:#fff;
+        display: block;
+        border-top: 3px solid;
+        width: 30px;
+        transition: .4s;
+       
+    }
+
+    #hamburguer-button::after, #hamburguer-button::before {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 3px;
+        background:currentColor;
+        margin-top: 8px;
+        transition: .3s;
+        position: relative;
+       
+       
+    }
+    #menu {
+        display: block;
+        align-items: center;
+        position: absolute;
+        width:180px;
+        top: 69px;
+        left: 0;
+        background-color:#2570b7a9;
+        height: 0;
+        transition:.4s;
+        z-index: 9999;
+        visibility: hidden;
+        overflow-y: hidden;
+        border-bottom-right-radius: 10%;
+    }
+
+    .options-mobile:hover {
+        background-color: rgba(255, 255, 255, 0.096);
+        color: #fff;
+        transition: .4s;
+    }
+
+    .header-menu img {
+       display: none;
+       
+    }
+    .header-menu #nav {
+        width: 100%;
+    }
+
+    .options-mobile {
+       padding: 2rem 0;
+       margin: 0 1rem;
+       border-bottom: 2px solid rgba(0, 0, 0, 0.123);
+       border-bottom-right-radius: 15%;
+       text-align: center;
+       
+    }
+
+    #nav.active #menu {
+        height: calc(240px - 70px);
+        visibility: visible;
+        overflow-y: auto;
+        
+    }
+
+    #nav.active #hamburguer-button {
+       border-top: transparent;
+
+    }
+    #nav.active #hamburguer-button::before {
+        transform: rotate(135deg);
+       
+
+    }
+    
+    #nav.active #hamburguer-button::after {
+        transform: rotate(-135deg);
+        top: -11px
+       
+
+    }
+
+    #home-container {
+        text-align: center;
+    }
+
+    .home-tittle {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+
+    .target-columns {
+      
+        grid-template-rows: repeat(5, 15vh);
+       
+    
+    }
+
+    .column6{
+        display: none;
+    }
+    .column7{
+        display: none;
+    }
+    .column8{
+        display: none;
+    }
+    .column9{
+        display: none;
+    }
+    .column10{
+        display: none;
+    }
+
+    .about-tittle-descriptions {
+        font-size: 2.8rem;
+       
+    }
+    
+    .about-descriptions {
+        padding-top: 25px;
+        font-size: 2.4rem;
+       
+    
+    }
+
+
+    .img-footer {
+        padding-top: 60px;
+        gap: 30px;
+    }
+   
+    .img-footer img {
+        width: 120px;
+    }
+
+
+    
+
+
+
+
+}
+
+@media (min-width:800px) {
+    .home-img{
+        justify-content:right;
+    
+    }
+
+    .target-columns {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px ,1fr));
+        grid-template-rows: repeat(5, 18vh);
+        grid-gap: 30px 50px;
+    
+    }
+
+    .target-img img {
         width: 80px;
     }
 
    
 
 
-
-
-
-
-
-
-}
-    
-    
-
-@media (max-width:1100px){
-
-    html{
-        font-size:50%;
+    .services-item-tittle {
+        margin-top: 40px; 
     }
 
-    .navbar{
-        display: flex;
-        min-width: 400px;
-        justify-content: space-around;
-        
-           
-    }
-
-
-    .tela1 .logobaixo{
-      
-        right: 100px;
-        bottom:50px;
-    
-      
-    }
-
-
-
-}
-
-@media(max-width:1020px){
-    .menu ul li{
-        display: block;
+    .services-content{
+        margin: auto;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
         width: 100%;
-        float: none;
-    }
-    label[for="bt_menu"]{
-    display:block;
+        gap: 50px;
     }
 
-    #bt_menu:checked ~ .menu{
-        margin-left: 0;
-
+    .services-item {
+      
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        border-bottom: none;
+      
     }
 
-    .menu a{
-        display: block;
+    .services-item-description {
+         max-width: none;
         
-        
     }
 
-
-    .menu a{
-        font-size: 20px;
-        width: 300px;
-        height: 70px;
-        margin-bottom: 10px;
-        line-height: 50px;
-        align-items: center;
-        display: block;
-        position: relative;
-        top: 30px;
-        left: -25px;
-    }    
-
-    .navbar{
-        display: none;
+    .services-item-column {
+       align-items: center;
+       text-align: center;
     }
 
-    .logo{
-        display:none;
-    }
-    
-    .header_container{
-        display:none;
-    }
-
-    .headercontainer{
+    .services-item-img-container {
         display: flex;
-        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        padding: 42px;
+  
+    
     }
 
-    .headerbutton{
-        display: block;
+    .services-item-img {
+        width: 100%;
+       
+      
+        
+    }
+    .services-item-img-container-2 {
+        width: 150px;
+        height: 150px;
+  
+    
     }
 
-    .menu{
-        display: block;
+    .services-item-img-2 {
+        width: 55px;
+      
+        
+    }
+    .services-item-img-container-3 {
+        width: 150px;
+        height: 150px;
+  
+    
+    }
+
+    .services-item-img-3 {
+        width: 65px;
+      
+        
+    }
+
+    .services-button {
+        width: 100%;
+    }
+
+
+    .about-container {
+        display: flex;
+        flex-direction: row;
        
     }
 
     
+    .about-container-columns-border {
+        border-top: 3px solid rgba(117, 117, 117, 0.37);;
+        border-left: transparent;
+    }
+    
+    .about-tittle-descriptions {
+        font-size: 1.8rem;
+       
+    }
+    
+    .about-descriptions {
+        padding-top: 15px;
+        font-size: 1.8rem;
+       
+    
+    }
+
+    .img-container {
+        height: 250px;
+        font-size: 3.2rem;
+      
+    }
+    
+    .registration-form {
+        margin: auto;
+        width: 500px;
+        gap: 50px;
+        padding: 40px;
+    
+    }
+
+    .form-description {  
+        width: 100%;
+        height: 80px;
+        
+        
+    }
+   
+    .form-button { 
+       width: 100%;
+       height: 80px;
+   
+    }
+
   
     
-
+    
 }
 
-@media(max-width:425px){
+@media (max-width:1140px) {
 
     html{
-        font-size:35%;
+        font-size: 45%;
     }
 
-    .tela1 .logobaixo{
-      
-        left: 80px;
-        bottom:50px;
-    
-      
+    #header-container .header-menu #nav{   
+        gap:20px;
     }
+    #header-container .header-menu #menu {
+        gap:20px;
+         
+     }
 
-    .imgfooter{
-        width: 180px;
-       
-    }
-
-    .form1{
-    
-        width: 300px ;
-      
-        
-        
-      
-    }
-
-    .buttonlogin{
-   
-        width: 300px ;
-        
-    
-    }
-
-    .imgfooter{
+     #header-container .header-menu img {
         width: 150px;
+        height: auto;
        
     }
-
-    .menu a{
-        width: 150px;
-        height: 50px;
-        margin-bottom: 10px;
-        line-height: 25px;
-       
-    }  
-    
-    .descricaocoluna1{
-        height: 200px;
-        width: 200px;
-        line-height: 20px;
-        text-align: left;
-
-    }
-
-
-    .imgcoluna1 img{
-    
-      position: relative;
-        right: 55px;
-
-    }
-
-
-    .descricaocoluna2{
-        height: 200px;
-        width: 200px;
-        line-height: 20px;
-        text-align: left;
-
-    }
-
-    .borderimg2{
-        position: relative;
-        right: 55px;
-
-
-
-    }
-
-    .descricaocoluna3{
-        height: 200px;
-        width: 200px;
-        line-height: 20px;
-        text-align: left;
-
-    }
-
-    .borderimg3{
-        position: relative;
-        right: 55px;
-
-
-
-    }
-
-    .form1{
-    
-        font-size: 15px;
-      
-        
-        
-      
-    
-    }
-    .tela1 h1{
-        
-        font-size: 9.0rem;
-    
-   
-      
-    }
-
-    
-
-   
-
-    
-    
-  
-
-
 
 }
+
+@media (min-width:1140px) {
+
+    html{
+        font-size: 60%;
+    }
+     .about-container-columns {
+        height: 250px;
+    
+    
+    } 
+
+    .img-container {
+        height: 300px;    
+      
+    }
+
+    .target-img img {
+        width: 90px;
+    }
+
+    .target-column-1 {
+        padding: 0  30px;
+
+    }
+
+    .target-content {
+        padding-left: 30px;
+    }
+
+
+  
+}
+
+
+
+
+
+
+
 
 
