@@ -1,3 +1,3 @@
-Deploy
+Página desenvolvida em conceito mobile first, tendo a finalidade de ser uma pagina instucional de uma empresa, utilizando  HTML/CSS/JavaScript, com scroll suave  e menu hamburguer na versão mobile
 
-https://fermercado.github.io/Grupo--Raccoon/
+Deploy: https://fermercado.github.io/Site-Institucional/
