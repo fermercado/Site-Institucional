@@ -1,66 +1,72 @@
-const btnMobile = document.getElementById('btn-mobile');
+const btnMobile = document.getElementById('btn-mobile')
 
-function toggleMenu(event){
-  if (event.type === 'touchstart') event.preventDefault();
-  const nav = document.getElementById('nav');
-  nav.classList.toggle('active');
-  const active = nav.classList.contains('active');
+function toggleMenu(event) {
+  if (event.type === 'touchstart') event.preventDefault()
+  const nav = document.getElementById('nav')
+  nav.classList.toggle('active')
+  const active = nav.classList.contains('active')
   event.currentTarget.setAttribute('aria-expanded', active)
-
 }
 
-btnMobile.addEventListener('click' , toggleMenu);
-btnMobile.addEventListener('touchstart' , toggleMenu);
+btnMobile.addEventListener('click', toggleMenu)
+btnMobile.addEventListener('touchstart', toggleMenu)
 
-
-
-
-
-const menuOptions = document.querySelectorAll('#nav a[href^="#"], .home-button ');
+const menuOptions = document.querySelectorAll(
+  '#nav a[href^="#"], .home-button '
+)
 
 menuOptions.forEach(options => {
-    options.addEventListener('click', scrollToIdOnClick);
+  options.addEventListener('click', scrollToIdOnClick)
 })
 
-function getScrollTopByHref(element){
-    const id = element.getAttribute('href');
-    return document.querySelector(id).offsetTop;
-
+function getScrollTopByHref(element) {
+  const id = element.getAttribute('href')
+  return document.querySelector(id).offsetTop
 }
 
 function scrollToIdOnClick(event) {
-    event.preventDefault();
-    const to = getScrollTopByHref(event.target) - 100;
-    
-    scrollToPositon(to)
+  event.preventDefault()
+  const to = getScrollTopByHref(event.target) - 100
+
+  scrollToPositon(to)
 }
 
-function scrollToPositon(to){
-    smoothScrollTo(0, to);
+function scrollToPositon(to) {
+  smoothScrollTo(0, to)
 }
 
 function smoothScrollTo(endX, endY, duration) {
-    const startX = window.scrollX || window.pageXOffset;
-    const startY = window.scrollY || window.pageYOffset;
-    const distanceX = endX - startX;
-    const distanceY = endY - startY;
-    const startTime = new Date().getTime();
-  
-    duration = typeof duration !== 'undefined' ? duration : 800;
-  
-    
-    const easeInOutQuart = (time, from, distance, duration) => {
-      if ((time /= duration / 2) < 1) return distance / 2 * time * time * time * time + from;
-      return -distance / 2 * ((time -= 2) * time * time * time - 2) + from;
-    };
-  
-    const timer = setInterval(() => {
-      const time = new Date().getTime() - startTime;
-      const newX = easeInOutQuart(time, startX, distanceX, duration);
-      const newY = easeInOutQuart(time, startY, distanceY, duration);
-      if (time >= duration) {
-        clearInterval(timer);
-      }
-      window.scroll(newX, newY);
-    }, 1000 / 60); // 60 fps
-  }; 
+  const startX = window.scrollX || window.pageXOffset
+  const startY = window.scrollY || window.pageYOffset
+  const distanceX = endX - startX
+  const distanceY = endY - startY
+  const startTime = new Date().getTime()
+
+  duration = typeof duration !== 'undefined' ? duration : 800
+
+  const easeInOutQuart = (time, from, distance, duration) => {
+    if ((time /= duration / 2) < 1)
+      return (distance / 2) * time * time * time * time + from
+    return (-distance / 2) * ((time -= 2) * time * time * time - 2) + from
+  }
+
+  const timer = setInterval(() => {
+    const time = new Date().getTime() - startTime
+    const newX = easeInOutQuart(time, startX, distanceX, duration)
+    const newY = easeInOutQuart(time, startY, distanceY, duration)
+    if (time >= duration) {
+      clearInterval(timer)
+    }
+    window.scroll(newX, newY)
+  }, 1000 / 60) // 60 fps
+}
+
+function clickClose() {
+  const clickSelect = document.querySelector('#menu')
+  clickSelect.addEventListener('click', function () {
+    const clicked = document.querySelector('.active')
+    clicked.classList.remove('active')
+  })
+}
+
+clickClose()
